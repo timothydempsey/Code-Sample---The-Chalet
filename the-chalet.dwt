@@ -1,0 +1,73 @@
+<?php
+	session_start();
+?>
+
+<!DOCTYPE HTML>
+<html>
+<head>
+
+<link href='http://fonts.googleapis.com/css?family=Headland+One' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Jacques+Francois' rel='stylesheet' type='text/css'>
+
+<meta charset="utf-8">
+<meta name="DESCRIPTION" content=" The Chalet by Kallman Worldwide is a leader in business show management for the aerospace, defense, security, health and food industries. Copyright (c) 2012 by Kallman Worldwide, Inc">
+<meta name="KEYWORDS" content="chalet, kallmman">
+<title>The Chalet | Kallman Worldwide</title>
+
+<!--  STYLES -->
+<link href="css/chalet.css" rel="stylesheet" type="text/css">
+
+
+<script type="text/javascript">
+function MM_popupMsg(msg) { //v1.0
+  alert(msg);
+}
+</script>
+<style>
+html,
+body {
+	
+}
+#wrapper {
+	margin:0 auto; 
+	min-height:100%;
+	position:relative;
+	background:#000;
+}
+#header {
+	padding:0;
+	/*background:#5ee;*/
+}
+#content {
+	width:940px;
+	margin: 0 auto;
+	padding:10px;
+	padding-bottom:80px;   
+	background-color:#000;/* Height of the footer element */
+	float:left;
+}
+
+</style>
+<!--  END OF STYLES -->
+
+</head>
+
+
+<body>
+<div id="wrapper">
+<div id="header"><?php include("includes/header.php"); ?></div>
+<div id="content">
+  
+<div id="navig"><?php include("includes/navig.php"); ?></div>
+
+<div id="bodycopy"><img src="images/The-Chalet-at-Farnborough-2012.png" class="placeholderSlides">
+<div style="clear:both"></div>
+<h1><!-- TemplateBeginEditable name="title-of-page" -->Edit<!-- TemplateEndEditable --></h1>
+<!-- TemplateBeginEditable name="text-body" -->
+<p>&nbsp;</p>
+<!-- TemplateEndEditable --></div>
+<div style="clear:both"></div>
+<div id="footer"><?php include("includes/footer-chalet.php"); ?></div>  
+</div> 
+</div></body>
+</html>

@@ -1,0 +1,161 @@
+@charset "utf-8";
+/*img, object, embed, video {
+	max-width: 100%;
+	width: 25%;
+}*/
+/* IE 6 does not support max-width so default to width 100% */
+.ie6 img {
+	width:100%;
+}
+
+
+body {
+	background-image:url(../images/wallpaper.jpg);
+	font-family:Arial, Helvetica, sans-serif;
+	line-height:150%;
+}
+
+#bodycopy {
+	clear: none;
+	float: left;
+	padding: 20px;
+	width: 650px;
+	display: block;
+	font-size: 1.2em;
+	color:#FFF;
+	background-color:#000;
+
+}	
+
+#bodycopy > p {
+margin-top:8px;	
+}
+
+#footer {
+	width: 880px;
+	clear: both;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	background-color: #000;
+	float: left;
+	margin-left: 0;
+}
+	
+.gridContainer {
+	width: 1024px; /* was 80% */	
+	min-height:100%;
+	min-width:900px;
+	max-width: 1400px;
+	padding-left: 7.9166%;
+	padding-right: 7.9166%;
+	margin: auto;
+}
+#header {
+	margin-left: 0;
+	width: 880px;
+	display: block;
+	background-color: #000;
+	color: #FFF;
+}
+
+#navig {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 25%;
+	display: block;
+
+}
+
+div.navigBottom {
+color:#FFF;
+padding:8px;	
+text-align:center;
+}
+
+div.navigBottom > a {
+color:#FFC;
+}
+
+
+div.reachNumbers {
+color:#FFF;	
+text-align:center;	
+}
+
+div.reachNumbers > a {
+color:#FFC;
+text-align:center;	
+}
+
+
+#slides {
+	clear: none;
+
+	float:left;
+margin-left: 0;
+	width: 100%;
+	display: block;
+
+}
+
+#bodyCopy {
+	clear: none;
+	float: left;
+	top:0px;
+	margin-left: 15%;
+	height:102%;
+	width: 80%;
+	padding:15px;
+	display: block;
+
+}
+
+#main {
+	width: 100%;
+	background-color:#000;
+	overflow-x: hidden;  /* ffox fix */
+	overflow-y: auto;    /* ffox fix */
+	padding-bottom: 20px;
+
+}
+
+#navigHorriz {
+clear: both;
+width: 100%;
+}
+
+#navigLeft {
+	clear: both;
+	float: left;
+	height: 100%;
+	width:194px;
+	display: inherit;
+	background-color: #6B6992;
+
+}
+#picture {
+	clear: none;
+	float: left;
+	margin-left: 0%;
+	width: 684px;
+	display: block;
+
+}
+/* extract from reset.css */
+* {margin:0;box-sizing:border-box;}
+html, body {height:100%;}
+
+/* sticky */
+#wrap {
+    min-height:100%;
+/* ie6: height:auto !important; height:100%; */
+}
+#footerMargin, #stickyFooter {clear:both;
+width: 880px;
+
+}
+
+/* footer height */
+#wrap {margin-bottom:-10em;}
+#stickyFooter, #footerMargin {height:5em;}

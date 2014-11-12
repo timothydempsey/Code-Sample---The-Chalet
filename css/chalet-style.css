@@ -1,0 +1,818 @@
+@charset "utf-8";
+/* Simple fluid media
+   Note: Fluid media requires that you remove the media's height and width attributes from the HTML
+   http://www.alistapart.com/articles/fluid-images/ 
+*/
+
+@charset "utf-8";
+
+
+a.white:link{color:#FFF;text-decoration:none;font-size:1.1em}
+a.white:hover{background-color:#369;color:#FFF;text-decoration:underline;font-size:1.1px em}
+a.white:visited{color:#D5DCF0;text-size:1.1em}
+
+.alignCenter {
+	float:center;
+	margin-top:1em;
+	margin-bottom:1em;
+	margin-right:1em;
+	display:block;
+	padding:6px;
+	text-align:center;
+	
+	}
+
+img.alignLeftBorderless {
+	
+	padding:10px;
+}
+
+	
+div.contactUs2Alt {
+	font-size:1.2em;
+	padding: 15px;
+	border-left-style:none;
+	margin-top:10px;
+	margin-right: 5px;
+	margin-bottom: 25px;
+	background: #e5eef4; /* fallback for older/unsupporting browsers */  
+	background: -moz-linear-gradient(top, #c9dae3, #e5eef4 22%);  
+	background: -webkit-gradient(linear, 0 0, 0 22%, from(#c9dae3), to(#e5eef4));  
+	border-style:solid;
+	border-width:thin;
+	border: 1px solid;
+	border-color:#e5eef4;  
+/*//	-moz-border-radius:16px;-webkit-border-radius:16px;border-radius:16px;*/
+
+}
+
+
+
+div.logo {
+	color:#000;
+	width:100%;
+	margin:0px;
+	float:center;
+	}
+
+
+div.navigTop {
+	font-size:1.2em;
+	padding:5px;
+	padding-top:8px;
+	padding-bottom:8px;
+	text-align:center;
+	margin-bottom:5px;
+	background-color:#25306a;
+	float:center;
+	-moz-box-shadow:3px 3px 3px #888;
+	-webkit-box-shadow:3px 3px 3px #888;
+	box-shadow:3px 3px 3px #888;
+	display: none;
+	}
+
+
+
+
+
+div.reachNumbers {
+	 font-size:x-small;
+	 font-weight:lighter;color:#666;
+	 text-align:center;margin-left: auto;
+	margin-right: auto;
+	margin-top:2em;
+	margin-bottom:2em;
+	width: 90%;
+	padding-left: 0px;
+	padding-right: 0px;
+	 background-color:#FFF;
+	 
+	}
+	
+	
+span.slogan{
+	font-family:'Yanone Kaffeesatz';
+	font-size:1.5em;
+	color:#262626;
+	text-align:center;
+	}
+
+img {
+	margin-bottom:10px;
+	margin-top: 10px;
+}
+
+
+.white
+{
+	font-family:"Arial Narrow", Arial, sans-serif;
+	font-size:1.0em;
+	font-style:italic;
+	font-weight:700;
+	color:#fff;
+	text-align:center;
+	
+	}
+	
+.white.visited 
+{
+	font-family:"Arial Narrow", Arial, sans-serif;
+	font-size:1.0em;
+	font-style:italic;
+	font-weight:700;
+	color:#cecece;
+	text-align:center;
+	
+	}	
+
+img {
+	max-width:100%;
+}
+
+
+object, embed, video {
+	max-width: 100%;
+}
+/* img, IE 6 does not support max-width so default to width 100% */
+.ie6 img {
+	width:100%;
+}
+
+/*
+	Dreamweaver Fluid Grid Properties
+	----------------------------------
+	dw-num-cols-mobile:		2;
+	dw-num-cols-tablet:		5;
+	dw-num-cols-desktop:	10;
+	dw-gutter-percentage:	10;
+	
+	Inspiration from "Responsive Web Design" by Ethan Marcotte 
+	http://www.alistapart.com/articles/responsive-web-design
+	
+	and Golden Grid System by Joni Korpi
+	http://goldengridsystem.com/
+*/
+
+/* Mobile Layout: 480px and below. */
+
+.gridContainer {
+	margin: 0 auto;
+	width: 100%;
+	/*	margin-left: auto;
+	margin-right: auto;
+	width: 86.8636%;
+	padding-left: 2.0681%;
+	padding-right: 2.0681%;*/
+	background-color: #FFF;
+}
+#header {
+	/*margin: 5%;
+	padding:1.2em;*/
+	clear: both;
+	float: center;
+	width: 100%;
+	/*display: block;*/
+	text-align: center;
+}
+
+h1 {
+font-family: 'Yanone Kaffeesatz';
+color: #262626;
+text-decoration: none;
+word-spacing: normal;
+text-align: left;
+letter-spacing: 0;
+line-height: 1.5em;
+font-size: 2.5em;
+margin-top:0;
+margin-bottom:0;
+}
+
+
+img#rotatorImg {
+	width:342px;
+	height:128px;
+}
+
+ul {
+	width:100%;
+	padding:0;
+	text-align:center;
+}
+
+
+li {
+width:100%;
+/*display:block;*/
+text-decoration:none;
+
+border-bottom-style:groove;
+border-bottom-width:1px;
+border-bottom-color:#fff;
+margin-bottom:1px;
+
+font-family:arial, helvetica, sans-serif; 
+padding: 0 5px 0 3px; 
+font-size:1.4em;
+/*background-color:#59473c;*/
+
+}
+
+li > a {
+	
+	text-decoration:none;
+	color:#FFF;
+	
+}
+
+ul.normal {
+	width:100%;
+	display:block;
+	text-align:left;
+}
+	
+	
+li.normal {
+/*	display:block;
+*/	width:100%;
+	border-bottom-style:none;
+/*	list-style-type:disc;*/
+	text-align:left;
+	background-color:#d9d5c5;
+}
+
+
+
+#sidebar {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#body {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#bodycopy {
+	clear: none;
+	float: left;
+	margin-left: 4.7619%;
+	width: 100%;
+	display: block;
+}
+
+#navig {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width:100%;
+	display: block;
+	background-color:#000;
+}
+
+
+#picture {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#mainBodyCopy {
+	clear: both;
+	float: left;
+	margin: 5%;
+	width: 90%;
+	display: block;
+}
+#footer {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	display: block;
+}
+
+img {
+/*	display:none;*/
+}
+
+div.slides_container {
+	float:left;
+	heigh:257px;
+}
+
+div.slides_control {
+	margin: 0 auto;
+	height:257px;
+}
+
+
+/* mobile Layout: 320px to 480px. Inherits styles from: Mobile Layout. */
+
+@media only screen and (min-width: 320px) {
+.gridContainer {
+	width: 90%;
+	padding-left: 2%;
+	padding-right: 2%;
+	background-color: #FFF;
+}
+
+#header {
+	clear: both;
+	float: center;
+	margin-left: 0px;
+	width: 100%;
+	display: block;
+	text-align: center;
+	margin-top: 0%;
+	margin-right: 5%;
+	margin-bottom: 0%;
+	/*	padding-top: 1.2em;
+	padding-right: 1.2em;
+	padding-bottom: 0em;
+	padding-left: 1.2em;*/
+}
+
+#header > img {
+	margin: 0 auto;
+}
+
+h1 {
+font-family: 'Yanone Kaffeesatz';
+color: #262626;
+text-decoration: none;
+word-spacing: normal;
+text-align: left;
+letter-spacing: 0;
+line-height: 1.5em;
+font-size: 2.5em;
+margin-top:0;
+margin-bottom:0;
+}
+
+img#rotatorImg {
+	width:285px;
+	height:102
+	px;
+}
+
+
+ul {
+	padding:0;
+}
+
+li {
+display:inline;
+text-decoration:none;
+border:0;
+border-right-style:solid;
+border-right-width:thin;
+border-right-color:#999;
+
+font-family:arial, helvetica, sans-serif; 
+padding: 0 5px 0 3px; 
+font-size:0.85em;
+}
+
+li > a {
+	text-decoration:none;
+	color:#FFF;
+}
+
+#LayoutDiv1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+
+#navig {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	background-color:#000;
+	display: block;
+}
+
+#sidebar {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#body {
+	clear: both;
+	float: left;
+	width: 100%;
+	display: block;
+	padding:0;
+}
+#bodycopy {
+	clear: none;
+	float: left;
+	margin-left: 1.8518%;
+	width: 100%;
+	display: block;
+}
+#footer {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+
+#picture {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#mainBodyCopy {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+
+#navig {
+	float: center;
+	margin: 0 auto;
+	display: block;
+	padding:0;
+	background-color:#000;
+}
+
+div.slides_container {
+	margin: 0 auto;
+	height:102px;
+}
+
+div.slides_control {
+	margin: 0 auto;
+	height:102px;
+}
+
+li.normal {
+	width:90%;
+	border-bottom-style:none;
+	/*list-style-type:square;*/
+	text-align:left;
+}
+
+}
+
+
+
+
+/* Tablet Layout: 481px to 768px. Inherits styles from: Mobile Layout. */
+
+@media only screen and (min-width: 481px) {
+.gridContainer {
+	width: 90%;
+	padding-left: 5px;
+	padding-right: 5px;
+	background-color: #FFF;
+}
+
+#header {
+	clear: both;
+	float: center;
+	margin-left: 0px;
+	width: 100%;
+	display: block;
+	text-align: center;
+	margin-top: 0%;
+	margin-right: 5%;
+	margin-bottom: 0%;
+	/*	padding-top: 1.2em;
+	padding-right: 1.2em;
+	padding-bottom: 0em;
+	padding-left: 1.2em;*/
+}
+
+#header > img {
+	margin: 0 auto;
+}
+
+h1 {
+font-family: 'Yanone Kaffeesatz';
+color: #262626;
+text-decoration: none;
+word-spacing: normal;
+text-align: left;
+letter-spacing: 0;
+line-height: 1.5em;
+font-size: 2.5em;
+margin-top:0;
+margin-bottom:0;
+}
+
+img#rotatorImg {
+	width:684px;
+	height:257px;
+}
+
+
+ul {
+	padding:0;
+}
+
+li {
+display:inline;
+text-decoration:none;
+border:0;
+border-right-style:solid;
+border-right-width:thin;
+border-right-color:#999;
+
+font-family:arial, helvetica, sans-serif; 
+padding: 0 5px 0 3px; 
+font-size:0.85em;
+}
+
+li > a {
+	text-decoration:none;
+	color:#FFF;
+}
+
+#LayoutDiv1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+
+#navig {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	background-color:#000;
+	display: block;
+}
+
+#sidebar {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#body {
+	clear: both;
+	float: left;
+	width: 100%;
+	display: block;
+	padding:0;
+}
+#bodycopy {
+	clear: none;
+	float: left;
+	margin-left: 1.8518%;
+	width: 100%;
+	display: block;
+}
+#footer {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+
+#picture {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#mainBodyCopy {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+
+#navig {
+	float: center;
+	margin: 0 auto;
+	display: block;
+	padding:0;
+	background-color:#000;
+}
+
+div.slides_container {
+	margin: 0 auto;
+	height:257px;
+}
+
+div.slides_control {
+	margin: 0 auto;
+	height:257px;
+}
+
+li.normal {
+	width:90%;
+	border-bottom-style:none;
+	/*list-style-type:square;*/
+	text-align:left;
+}
+
+}
+
+/* Desktop Layout: 769px to a max of 1232px.  Inherits styles from: Mobile Layout and Tablet Layout. */
+
+@media only screen and (min-width: 769px) {
+.gridContainer {
+	min-width:980px;
+	max-width: 1024px;
+	/*padding-left: 2.5%;
+	padding-right: 2.5%;*/
+	margin: auto;
+	background-color: #D9D5C5;
+	background-image: url(../images/swoosh-background.png);
+	background-repeat: no-repeat;
+}
+
+h1 {
+font-family: 'Yanone Kaffeesatz';
+color: #262626;
+text-decoration: none;
+word-spacing: normal;
+text-align: left;
+letter-spacing: 0;
+line-height: 1.5em;
+font-size: 2.5em;
+margin-top:0;
+margin-bottom:0;
+}
+
+#header {
+	/*margin: 5%;*/
+	margin-left: 15%;
+	padding-top: 0;
+	/*padding:1.2em;*/
+	clear: both;
+	float: center;
+	width: 100%;
+	display: block;
+	text-align:center;
+}
+
+#header > img {
+	margin: 0 auto;
+}
+
+img#rotatorImg {
+	width:684px;
+	height:257px;
+}
+li {
+text-align:left;
+display:block;
+width:125px;
+text-decoration:none;
+border:0;
+border-bottom-style:groove;
+border-bottom-width:1px;
+border-bottom-color:#fff;
+margin-bottom:12px;
+
+}
+
+
+
+li > a {
+	
+	text-decoration:none;
+	color:#FFF;
+}
+
+
+
+#LayoutDiv1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#navig {
+	clear: both;
+	width:12%;
+	float: left;
+	margin-left: 0;
+	height:260px;
+	display: block;
+	
+background-color:#59473c;
+	
+}
+#sidebar {
+	background-color:#FFF;
+	clear: both;
+	float: left;
+	margin-left: 5%;
+	width: 17.3%;
+	display: block;
+}
+#body {
+	clear: both;
+	float: left;
+	margin-left: 10.0917%;
+	width: 29.3577%;
+	display: block;
+}
+#bodycopy {
+	background-color:#FFF;
+	clear: none;
+	float: left;
+	margin-left:  0.9174%; /* was */
+	width: 69.7247%; /*was %*/
+	display: block;
+}
+#picture {
+	clear: none;
+	float: right;
+	margin-left: 0.9174%;
+	width: 79.8165%;
+	display: block;
+}
+#mainBodyCopy {
+	clear: both;
+	float: right;
+	/*margin-left: 25%*/;
+	width: 65%;
+	/*display: block;*/
+}
+
+
+h1 {
+font-family: 'Yanone Kaffeesatz';
+color: #262626;
+text-decoration: none;
+word-spacing: normal;
+text-align: left;
+letter-spacing: 0;
+line-height: 1.5em;
+font-size: 2.5em;
+margin-top:0;
+margin-bottom:0;
+}
+
+h2 {
+font-family: 'Yanone Kaffeesatz';
+color: #262626;
+text-decoration: none;
+word-spacing: normal;
+text-align: left;
+letter-spacing: 0;
+line-height: 1.5em;
+font-size: 2.0em;
+font-weight:100;
+}
+
+#footer {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+
+/*div.slides_control {
+	margin: 0 auto;
+	height:257px;
+}*/
+
+#slides{
+	margin-left:28%;
+/*	overflow:hidden;
+	*/
+	}
+#slides-sp{
+	overflow:hidden;
+	width:100%;
+	}
+
+div.calloutHalfWidth { 
+line-height:2em;
+font-size:0.9em;
+float:left;
+padding:10px;
+vertical-align:top;
+width:46%;
+height:100%;
+}
+}

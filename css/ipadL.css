@@ -1,0 +1,26 @@
+@charset "utf-8";
+/* CSS Document */
+
+h1 {
+	color:#63C;
+}
+.gridContainer {
+	width: 1024px; /* was 80% */	min-height:100%;
+	max-width: 880px;
+	padding-left: 7.9166%;
+	padding-right: 7.9166%;
+	margin: auto;
+}
+
+.clearfix { 
+min-height:100%;
+zoom: 1; }
+
+#main {
+	width: 880px;
+	background-color:#000;
+	overflow-x: hidden;  /* ffox fix */
+	overflow-y: auto;    /* ffox fix */
+	padding-bottom: 20px;
+
+}

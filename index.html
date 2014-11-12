@@ -1,0 +1,198 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="ie6 oldie"> <![endif]-->
+<!--[if IE 7]>    <html class="ie7 oldie"> <![endif]-->
+<!--[if IE 8]>    <html class="ie8 oldie"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="air show onsite business chalets, airshow conference rooms, upscale meeting spaces, international air show amenities">
+<title>Home | Business Class | The Chalet</title>
+<link href="css/boilerplate.css" rel="stylesheet" type="text/css">
+<link href="css/chalet-style.css" rel="stylesheet" type="text/css">
+
+<!-- 
+To learn more about the conditional comments around the html tags at the top of the file:
+paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/
+
+Do the following if you're using your customized build of modernizr (http://www.modernizr.com/):
+* insert the link to your js here
+* remove the link below to the html5shiv
+* add the "no-js" class to the html tags at the top
+* you can also remove the link to respond.min.js if you included the MQ Polyfill in your modernizr build 
+-->
+<!--[if lt IE 9]>
+<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<script src="respond.min.js"></script>
+
+<script type="text/javascript" src="../jquery/jquery-1.7.min.js"></script>
+
+<script type="text/javascript" src="../jquery/slides/Slides/source/slides.jquery.js"></script>
+
+<script>
+ $(function(){
+$(function(){
+  $("#slides").slides({
+	generatePagination: false,
+	crossfade: true,
+	effect: 'fade',
+	fadeSpeed: 1000,
+	play: 3500 /* COMMA REMOVED PER DOC SLIDES */
+  });
+});
+});
+
+$(function(){
+$(function(){
+  $("#slides-sp").slides({
+	generatePagination: false,
+	crossfade: true,
+	effect: 'fade',
+	fadeSpeed: 1000,
+	play: 3500 /* COMMA REMOVED PER DOC SLIDES */
+  });
+});
+});
+
+</script>
+
+<!--<link href="css/iphoneP.css" rel="stylesheet" type="text/css" media="only screen and (min-width:0px) and (max-width:320px)">-->
+<script type="text/javascript">
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+// Comma separated list of images to rotate 
+var imgs = new Array('images/image2.png','images/image3.png');
+// delay in milliseconds between image swaps 1000 = 1 second 
+var delay = 100000;
+var counter = 0;
+
+function preloadImgs(){
+  for(var i=0;i<imgs.length;i++){
+    MM_preloadImages(imgs[i]);
+  }
+}
+
+function randomImages(){
+  if(counter == (imgs.length)){
+    counter = 0;
+  }
+  MM_swapImage('rotator', '', imgs[counter++]);
+  setTimeout('randomImages()', delay);
+}
+
+
+
+</script>
+<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz">
+
+</head>
+<body  onload="preloadImgs();randomImages();">
+<div class="gridContainer clearfix">
+  <div id="header">
+    <img src="images/The-Chalet-Logo.png" alt="The Chalet Logo"><br/>
+    <span class="slogan">The Ultimate Business Setting at International Air Shows</span>
+  </div>
+  <div id="navig">
+  <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="options.html">Options</a></li>
+      <li><a href="clients.html">Our Clients</a></li>
+      <li><a href="testimonials.html">Testimonials</a></li>
+      <li><a href="photo-gallery.html">Portfolio</a></li>
+      <li><a href="chalet-video-tour.html">CHALET Tour</a></li>
+      <li><a href="contact-us.html">Contact      </a></li>
+    </ul>
+  </div>
+ <div id="slides" >
+<div class="slides_container" >
+    
+    <div>
+    <img src="../jquery/slides/Slides/source/photos/The-Chalet-by-Kallman-Sitting-Area.png" alt="The Chalet by Kallman - Sitting Area" name="rotatorImg"  id="rotatorImg"></div>
+    
+    <div>
+    <img src="../jquery/slides/Slides/source/photos/The-Chalet-by-Kallman-AEROJET-Conference-Room.png" alt="The Chalet by Kallman - AEROJET Conference Room" name="rotatorImg"  id="rotatorImg" ></div>
+
+   <div >
+   <img src="../jquery/slides/Slides/source/photos/The-Chalet-by-Kallman-KWI-Clients.png" alt="The Chalet by Kallman - KWI Clients" name="rotatorImg" id="rotatorImg" ></div>
+   
+
+    
+    <div >
+   <img src="../jquery/slides/Slides/source/photos/The-Chalet-by-Kallman-FLIR-Reception-Area.png" alt="The Chalet by Kallman - FLIR Reception Area" name="rotatorImg" id="rotatorImg" ></div>
+   
+   
+	<div >
+	<img src="../jquery/slides/Slides/source/photos/The-Chalet-by-Kallman-MAKINO-Lounge.png" alt="The Chalet by Kallman - MAKINO Lounge" name="rotatorImg" width="684" height="257" id="rotatorImg" ></div>
+
+<div >
+	<img src="../jquery/slides/Slides/source/photos/The-Chalet-by-Kallman-KWI-Dining-Staff.png" alt="The Chalet by Kallman - Dining Staff" name="rotatorImg" width="684" height="257" id="rotatorImg" ></div>
+
+<div >
+	<img src="../jquery/slides/Slides/source/photos/The-Chalet-by-Kallman-KWI-Lounge.png" alt="The Chalet by Kallman - KWI Lounge" name="rotatorImg" width="684" height="257" id="rotatorImg" ></div>
+
+<div >
+	<img src="../jquery/slides/Slides/source/photos/The-Chalet-by-Kallman-KWI-Dining.png" alt="The Chalet by Kallman - KWI Dining" name="rotatorImg" width="684" height="257" id="rotatorImg" ></div>
+
+
+</div>
+
+
+
+</div>
+  <div id="mainBodyCopy">
+    <h1>THE CHALET</h1><p>Searching for another way to showcase your company?  Participating at some of the world’s largest airshows doesn’t always mean exhibiting on the trade show floor.  Dozens of companies have found budget-friendly alternative or supplemental solutions to bring their company to the international marketplace at The Chalet.</p>
+    <p>Chalets provide a unique, private upscale setting for meetings, presentations, high-end dining, product demonstrations, etc. adjacent to static display, the flight line and aerial demonstrations.  The Chalet is a fully-staffed shared corporate hospitality venue holding privately-owned spaces and a shared dining room, located on-site alongside the private chalet units for many of the aerospace industry’s leading companies – providing highly visible cost-effective solutions that are specifically ideal for SMEs and companies with heavy meeting schedules.</p>
+    <p>The Chalet is staffed at all hours with an experienced professional team to assist you with any on-site requests, and to welcome your guests in the reception area with a smile.  Guests check-in at the front desk and we’ll notify you of their arrival.  A host of <a href="services.html">amenities and services</a> including a business center and escorted personal transportation around the show are available at your disposal. </p>
+    <p><a href="../index.php">Kallman Worldwide</a>, organizer of The Chalet, works with you to design a package for your company that is uniquely developed to suit your needs – this way you are paying for no more than what you need during the week. <a href="contact-us.html">Contact us</a> to begin building a customized package for your company at the next aerospace event.  The Chalet is currently available at the Paris Air Show 2013, Dubai Airshow 2013 and Farnborough 2014. <br>
+    </p>
+  </div>
+  <!-- #BeginLibraryItem "/Library/chalet-footer.lbi" -->
+  <div id="footer">
+    <div class="litegold" ><a href="http://www.kallman.com"><img src="images/KWW-gold-drip300px.png" width="275" height="68" alt="Kallman Logo" border=0 ></a><br/>
+      <div> <a href="http://www.kallman.com/exhibit.php" class="footerLink" > EXHIBIT</a>&nbsp; <a href="http://www.kallman.com/contact-us.php#visit" class="footerLink">VISIT</a>&nbsp;&nbsp; <a href="http://www.kallmancreativeservices.com" class="footerLink">CUSTOM DISPLAYS </a>&nbsp;&nbsp; <a href="http://www.kallman.com/pdfs/GuruReport-Guide-To-Foreign-Exhibiting.pdf" class="footerLink">FOREIGN EXHIBITING (PDF)</a>&nbsp;&nbsp; <a href="http://www.kallman.com/privacy.html" class="footerLink" >PRIVACY</a>&nbsp;&nbsp; <a href="http://www.kallman.com/terms-of-use.php" class="footerLink">TERMS OF USE</a>&nbsp;&nbsp; <a href="http://www.kallman.com/careers.php" class="footerLink">CAREERS</a> <br/>
+        4 North Street Suite 800 Waldwick NJ 07463	Phone +1 (201) 251-2600 Fax +1 (201) 251-2760 <a href="mailto:info@kallman.com?subject=Please%20send%20me%20info%20about%20selling%20in%20the%20global%20marketplace." class="footerLink" >info@kallman.com</a> KALLMAN.COM ©2013</div>
+    </div>
+  </div>
+<!-- #EndLibraryItem --> </div>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-34822162-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+</body>
+</html>

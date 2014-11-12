@@ -1,0 +1,61 @@
+@charset "utf-8";
+{ 
+  background: #003333 !important; 
+  color: black !important; text-shadow: none !important; 
+  filter:none !important; -ms-filter: none !important; } /* Black prints faster: h5bp.com/s */
+  a, a:visited { text-decoration: underline;display:none }
+  a[href]:after { content: " (" attr(href) ")"; }
+  abbr[title]:after { content: " (" attr(title) ")"; }
+  .ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after { content: ""; }  /* Don't show links for images, or javascript/internal links */
+  pre, blockquote { border: 1px solid #999; page-break-inside: avoid; }
+  thead { display: table-header-group; } /* h5bp.com/t */
+  tr, img { page-break-inside: avoid; }
+  img { max-width: 100% !important; }
+  @page { margin: 0.5cm; }
+  p, h2, h3 { orphans: 3; widows: 3; }
+  h2, h3 { page-break-after: avoid; }
+
+div#navig {
+	display:none;
+}
+
+#bodycopy {
+	color: #FFF;
+	clear: none;
+	float: left;
+	overflow: visible;
+	width: 100%;
+	
+}
+
+
+#container {
+	width: 100%; /* was 88.d*/
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size: 1.2em;
+	margin: 0 auto;
+	overflow: visible;
+	background-color: #000;
+	height: 100%;
+
+}
+
+#content {
+	height:100%;
+	background-color: #000;
+	padding:10px;
+	float: left;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-left: 10px;
+	overflow: hidden;
+	width:100%;
+	margin: 0 auto;
+}
+
+#footer {
+	display:none;
+}
+
+ }
+

@@ -1,0 +1,1 @@
+<a href="index.php"><img src="images/The-Chalet-Logo.gif" width="960" height="89" alt="The Chalet Logo"></a>
